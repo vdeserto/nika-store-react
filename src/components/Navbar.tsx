@@ -57,7 +57,7 @@ class Navbar extends React.Component {
             >
               <div className={"container-fluid " + isMobile()}>
                 <Link className="navbar-brand" to="/home">
-                  <img src={nikaStoreLogo} width="48" alt="..." />
+                  <img src={nikaStoreLogo} className={"me-2"} width="48" alt="..." />
                   Nika Store
                 </Link>
                 <button
