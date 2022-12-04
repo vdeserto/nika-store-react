@@ -8,7 +8,7 @@ export default function MainRoutes() {
   return (
     <div className="w-100 h-100 bg-sg">
       <Navbar />
-      <div className="d-flex">
+      <div className="d-grid">
         <Routes>
           {/* <Route path="/" exact component={Landing}/> */}
           <Route index path="/home" element={<Home />} />

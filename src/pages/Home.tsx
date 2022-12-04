@@ -30,8 +30,7 @@ const carouselItems = [
     alt: "Veja as ofertas para o dia das mães",
   },
 ];
-class Home extends React.Component {
-  render() {
+function Home() {
     return (
       <main className="container">
         <div
@@ -106,5 +105,5 @@ class Home extends React.Component {
       </main>
     );
   }
-}
+
 export default Home;
